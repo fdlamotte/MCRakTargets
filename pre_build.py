@@ -65,5 +65,3 @@ if add_exampledir_to_incs:
     example_dir = f".pio/libdeps/{env_name}/MeshCore/examples/{example_name}"
     print(f"adding {example_dir} to includes")
     menv.Append(BUILD_FLAGS=[f"-I {example_dir}"])
-
-menv.Append(BUILD_FLAGS=[f"-I"])
